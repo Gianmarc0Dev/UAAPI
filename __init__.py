@@ -13,7 +13,7 @@ def getInfo(url):
 
     product = {
         "title": r.html.xpath("//*[@id='productTitle']", first=True).text,
-        "price": r.html.xpath("//*[@id='priceblock_ourprice']", first=True).text
+        "price": r.html.xpath("//*[@id='priceblock_ourprice']", first=True).text,
+        "url": url
     }
-    print(product)
     return product
