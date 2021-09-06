@@ -5,7 +5,7 @@ setup(
     name='UAAPI',
     url='https://github.com/Gianmarc0Dev/UAAPI',
     author='Gianmarco',
-    author_email='worldwideoutlander@gmai.com',
+    author_email='worldwideoutlander@gmail.com',
     # Needed to actually package something
     packages=['UAAPI'],
     # Needed for dependencies
