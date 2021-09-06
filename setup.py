@@ -7,7 +7,7 @@ setup(
     author='Gianmarco',
     author_email='worldwideoutlander@gmai.com',
     # Needed to actually package something
-    packages=['API'],
+    packages=['UAAPI'],
     # Needed for dependencies
     install_requires=[''],
     # *strongly* suggested for sharing
